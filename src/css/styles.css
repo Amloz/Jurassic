@@ -36,8 +36,31 @@ nav ul li a {
     background-size: cover;
     text-align: center;
     padding: 100px 20px;
-    color: white;
+    font-size: 1.7em;
 }
+
+.banner  h1{
+    color: #ae2012;
+    font-weight: bold;
+}
+
+.banner h2{
+    color: #274C77;
+    font-weight: bold;
+}
+
+.anime-figures img , .shirts-grid img{
+    width: 40%;
+}
+
+.figures-grid , .shirts-grid{
+    display: flex;
+}
+
+
+
+
+
 
 .section {
     padding: 50px 20px;
@@ -66,6 +89,8 @@ section{
   border: solid 1px  #d6ccc2;
   width: 70%;
   margin: 1% 0;
+  background-color: white;
+
 }
 
 main{
@@ -73,5 +98,5 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-   
+   background-color: #e7ecef;
 }
