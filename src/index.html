@@ -101,17 +101,20 @@
         <section id="products" class="section">
             <h2>Línea de Productos</h2>
             <div class="products-grid">
-                <div class="product-item">
+                <div class="product-item" data-name="Controlador Inalámbrico Pro" data-description="Compatible con PC, PS5 y Xbox." data-price="100000">
                     <img src="https://st2.depositphotos.com/34353014/42948/i/450/depositphotos_429480174-stock-photo-riga-latvia-november-2020-new.jpg" alt="Controlador Inalámbrico">
                     <p><strong>Controlador Inalámbrico Pro</strong><br> Compatible con PC, PS5 y Xbox. - <strong>$100.000</strong></p>
+                    <button class="select-product">Seleccionar</button>
                 </div>
-                <div class="product-item">
+                <div class="product-item" data-name="Auriculares Gaming 7.1" data-description="Sonido envolvente para una experiencia inmersiva." data-price="200000">
                     <img src="https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_99509905/fee_786_587_png" alt="Auriculares Gaming">
                     <p><strong>Auriculares Gaming 7.1</strong><br> Sonido envolvente para una experiencia inmersiva. - <strong>$200.000</strong></p>
+                    <button class="select-product">Seleccionar</button>
                 </div>
-                <div class="product-item">
+                <div class="product-item" data-name="Monitor 4K Ultra HD" data-description="Diseñado para una visualización perfecta en 4K." data-price="300000">
                     <img src="https://www.wepc.com/wp-content/uploads/2019/05/DSC02079-1-scaled.jpg" alt="Monitor 4K Gaming">
                     <p><strong>Monitor 4K Ultra HD</strong><br> Diseñado para una visualización perfecta en 4K. - <strong>$300.000</strong></p>
+                    <button class="select-product">Seleccionar</button>
                 </div>
             </div>
         </section>
@@ -120,17 +123,20 @@
         <section id="anime-shirts" class="section">
             <h2>Camisas de Anime y Videojuegos</h2>
             <div class="shirts-grid">
-                <div class="shirt-item">
+                <div class="shirt-item" data-name="Camisa Dragon Ball Z" data-description="Estilo casual con estampado de Goku." data-price="50000">
                     <img src="https://www.mandragorastore.com/wp-content/uploads/2022/05/Dragon-Ball-Z-Goku-Fase-3-men.jpg" alt="Camisa de Dragon Ball">
                     <p><strong>Camisa Dragon Ball Z</strong><br> Estilo casual con estampado de Goku. - <strong>$50.000</strong></p>
+                    <button class="select-product">Seleccionar</button>
                 </div>
-                <div class="shirt-item">
+                <div class="shirt-item" data-name="Camisa The Legend of Zelda" data-description="Diseño exclusivo inspirado en el emblema de la Trifuerza." data-price="60000">
                     <img src="https://www.mandragorastore.com/wp-content/uploads/2023/04/The-Legend-of-Zelda-Princesa-Tears-of-the-Kingdom-men.jpg" alt="Camisa de Zelda">
                     <p><strong>Camisa The Legend of Zelda</strong><br> Diseño exclusivo inspirado en el emblema de la Trifuerza. - <strong>$60.000</strong></p>
+                    <button class="select-product">Seleccionar</button>
                 </div>
-                <div class="shirt-item">
+                <div class="shirt-item" data-name="Camisa Attack on Titan" data-description="Con el logo del Cuerpo de Exploración." data-price="55000">
                     <img src="https://www.mandragorastore.com/wp-content/uploads/2023/02/Attack-on-Titan-Eren-Titan-Fundador-men-OKK.jpg" alt="Camisa de Attack on Titan">
                     <p><strong>Camisa Attack on Titan</strong><br> Con el logo del Cuerpo de Exploración. - <strong>$55.000</strong></p>
+                    <button class="select-product">Seleccionar</button>
                 </div>
             </div>
         </section>
@@ -267,11 +273,16 @@
                 </ul>
             </div>
         </div>
+        <div id="carrito">
+            <h2>Carrito</h2>
+            <ul id="lista-productos"></ul>
+        </div>
+        <div id="total-carrito">Total: $0.00</div>
         <div class="footer-bottom">
             <p>&copy; 2024 GamerZone. Todos los derechos reservados.</p>
         </div>
     </footer>
-
+    <script src="js/carrito.js"></script>
 </body>
 
 </html>
