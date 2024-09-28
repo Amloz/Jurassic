@@ -365,3 +365,23 @@ button:hover {
     }
 }
 
+/* Estilo por IDs */
+
+#titulo_principal{
+    
+    color: rgb(4, 191, 248);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+    /* font-family: system-ui; */
+    font-weight: bold;
+
+    background: linear-gradient(to right, #333, transparent);    
+}
+
+#subtitulo_principal{
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+    /* font-family: system-ui; */
+    font-weight: bold;
+
+    background: linear-gradient(to left, #333, transparent);    
+}

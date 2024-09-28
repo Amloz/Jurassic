@@ -5,7 +5,7 @@ const botonesSeleccionar = document.querySelectorAll('.select-product');
 
 botonesSeleccionar.forEach(boton => {
   boton.addEventListener('click', () => {
-    const producto = boton.closest('.product-item, .shirt-item');
+    const producto = boton.closest('.product-item, .shirt-item, .figure-item');
 
     // Obtener los datos del producto a partir de los atributos de datos
     const nombre = producto.dataset.name;
