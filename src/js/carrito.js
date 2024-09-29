@@ -1,3 +1,13 @@
+//Interacción de modal carrito de compras
+// const myModal = document.getElementById('myModal')
+// const myInput = document.getElementById('myInput')
+
+// myModal.addEventListener('shown.bs.modal', () => {
+//   myInput.focus()
+// })
+
+
+//Lógica del carrito de compras
 const productosSeleccionados = [];
 
 // Seleccionar todos los botones de selección

@@ -325,7 +325,7 @@ button:hover {
     margin-bottom: 10px;
 }
 
-.about-content ul li strong {
+.about-content ul li strong {   
     color: #333;
 }
 
@@ -371,17 +371,13 @@ button:hover {
     
     color: rgb(4, 191, 248);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
-    /* font-family: system-ui; */
     font-weight: bold;
-
     background: linear-gradient(to right, #333, transparent);    
 }
 
 #subtitulo_principal{
     color: white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
-    /* font-family: system-ui; */
     font-weight: bold;
-
     background: linear-gradient(to left, #333, transparent);    
 }
